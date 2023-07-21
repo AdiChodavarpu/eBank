@@ -1,0 +1,98 @@
+.login-container {
+  background-color: #152850;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 50vh;
+  width: 80%;
+  background-color: #e0eefe;
+}
+.login-image-Container {
+  height: 450px;
+  width: 55%;
+  background-color: #e0eefe;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginImg {
+  height: 360px;
+  width: 75%;
+  border-radius: 15px;
+}
+
+.login-card-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 450px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 40px;
+  padding-bottom: 35px;
+}
+
+.welcome-heading {
+  color: #152850;
+  font-size: 35px;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+
+.input-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+.labelElement {
+  color: #183b56;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.inputElement {
+  color: #183b56;
+  border: 1px solid #5a7184;
+  background-color: transparent;
+  border-radius: 5px;
+  width: 90%;
+  height: 35px;
+  outline: none;
+  cursor: pointer;
+  padding-left: 10px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.LoginBtn {
+  color: #ffffff;
+  border: none;
+  background-color: #1565d8;
+  border-radius: 5px;
+  width: 73%;
+  height: 35px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-top: 10px;
+}
